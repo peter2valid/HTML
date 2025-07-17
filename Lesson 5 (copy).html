@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 5</title>
+  </head>
+  <body>
+    <h1><center>HTML Forms</center></h1>
+    <!-- A form is used to collect user details and store the same inside of a database.It is introduced by the use of the form tag element.To subdivide a form we use the fieldset tag element.To give a caption to the fieldset we use the legend tag element. -->
+
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label>First Name</label> <br />
+        <input type="text" placeholder="Enter the first name here" /> <br />
+
+        <label>Last name</label> <br />
+        <input type="text" placeholder="Enter last name here" /> <br />
+
+        <label>ID number</label> <br />
+        <input type="Number" placeholder="Enter the Id number here" /> <br />
+
+        <label> Email</label> <br />
+        <input type="Email" placeholder=" Enter the email address" /> <br />
+
+        <label> password </label> <br />
+        <input type="password" placeholder="Enter password here" /><br />
+
+        <label> DOB</label> <br />
+        <input type="Date" placeholder="Enter date of birth" /><br />
+
+        <label> Choose Profile Picture</label> <br />
+        <input type="File" /> <br />
+
+        <fieldset><br /></fieldset>
+        <legend>Selection</legend> <br>
+        <label> Select Hobbies from the list below</label> <br />
+        <input type="checkbox" /> Reading <br />
+        <input type="checkbox" /> Swimming <br />
+        <input type="checkbox" /> Riding <br />
+        <input type="checkbox" /> Singing <br />
+        <br />
+
+        <label> Gender</label> <br /> 
+        <input type="radio" name="Gender"> Male <br> 
+        <input type="radio" name="Gender"> Female <br>
+        <input type="radio" name="Gender"> Others <br>
+        <input type="radio" name="Gender"> Undisclosed <br> <br>
+
+        <label>Choose a Course </label> <br>
+        <select> 
+          <option value="1"> No course chosen</option>
+          <option value="2"> Medicine</option>
+          <option value="3"> Computer science</option>
+          <option value="4" selected> Nursing</option>
+          <option value="5"> Information Technology (IT)</option>
+
+
+        </select>
+
+      </fieldset> <br>
+      <fieldset>
+        <legend> Feedback</legend>
+        <textarea placeholder="Leave your comment here..." cols="45" rows="5"></textarea> 
+      </fieldset> <br> <br>
+
+      <input type="reset" value=" Reset"> <br>
+      <input type="button" value="Make application"> 
+
+    </form>
+  </body>
+</html>
